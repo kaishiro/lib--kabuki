@@ -1,5 +1,6 @@
-function shuffle(deck) {
-    var m = deck.length, t, i;
+function shuffleDeck(params) {
+  var deck = params['deck'];
+  var m = deck.length, t, i;
 
     while (m) {
       
